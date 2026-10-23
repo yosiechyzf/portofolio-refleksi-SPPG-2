@@ -1,0 +1,503 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio digital refleksi pengalaman belajar dan perjalanan PPG Yosie Zahra Fadilla">
+  <title>Portofolio LK 2 | Yosie Zahra Fadilla</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#beranda" class="brand" aria-label="Yosie Zahra Fadilla - Beranda">
+      <img src="images/foto%201.jpeg" alt="">
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi"
+      aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#beranda">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#refleksi">Refleksi 4C</a>
+      <a href="#refleksi-ppg">Refleksi PPG</a>
+      <a href="#perubahan">Rencana Perubahan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-content">
+        <span class="eyebrow">PORTOFOLIO DIGITAL • PPG</span>
+        <h1>Belajar, Berefleksi,<br>dan <span>Bertumbuh.</span></h1>
+        <p>
+          Lima refleksi perjalanan PPG: pembelajaran sosial emosional,
+          kepemimpinan, praktik lapangan, asesmen mendalam, dan pendidikan inklusi.
+        </p>
+        <div class="hero-actions">
+          <a href="#refleksi" class="btn btn-primary">Jelajahi Refleksi ↗</a>
+          <button class="btn btn-outline" id="printButton">Cetak Portofolio</button>
+        </div>
+        <div class="hero-meta">
+          <div><strong>05</strong><span>Refleksi Belajar</span></div>
+          <div><strong>4C</strong><span>Refleksi Mendalam</span></div>
+          <div><strong>01</strong><span>Refleksi Perjalanan PPG</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi produksi film">
+        <div class="art-card">
+          <div class="film-top">A LITTLE CORNER OF LEARNING</div>
+          <div class="film-screen">
+            <span class="play-icon">▶</span>
+            <span class="film-caption">GROW · CREATE · GLOW</span>
+          </div>
+          <div class="film-bottom">
+            <span>PPG</span><span>BROADCASTING</span><span>2026</span>
+          </div>
+        </div>
+        <svg class="kitty-mascot" viewBox="0 0 150 170" role="img"
+          aria-label="Maskot kucing lavender berbintang yang sedang melambai">
+          <g class="mascot-cat">
+            <path class="mascot-tail" d="M48 127C20 145 16 113 32 104" />
+            <path class="mascot-body" d="M48 88c-3 21-7 31-5 48 1 8 15 10 24 4l8-8 9 8c10 6 24 3 24-6 0-17-4-29-8-46" />
+            <path class="mascot-ear" d="m38 65 4-33 28 22m12 0 27-22 5 34" />
+            <path class="mascot-head" d="M38 59c3-20 16-31 37-31 20 0 34 11 37 31l-3 20c-3 17-18 27-34 27S44 96 40 79z" />
+            <path class="mascot-tuft" d="m67 31 7-13 7 12 9-8-2 16H62l-3-12z" />
+            <path class="mascot-star" d="m104 38 3-7 3 7 7 3-7 3-3 7-3-7-7-3z" />
+            <g class="mascot-eyes">
+              <ellipse cx="60" cy="69" rx="4.2" ry="6" />
+              <ellipse cx="91" cy="69" rx="4.2" ry="6" />
+            </g>
+            <path class="mascot-eye-glint" d="m59 66 2 2m30-2 2 2" />
+            <path class="mascot-nose" d="m72 76 4-3 4 3-4 4z" />
+            <circle class="mascot-freckle" cx="52" cy="81" r="1.8" />
+            <circle class="mascot-freckle" cx="58" cy="84" r="1.8" />
+            <circle class="mascot-freckle" cx="100" cy="81" r="1.8" />
+            <circle class="mascot-freckle" cx="94" cy="84" r="1.8" />
+            <path class="mascot-mouth" d="M76 80v5m0 0c-4 5-8 4-10 1m10-1c4 5 8 4 10 1" />
+            <path class="mascot-whiskers" d="m48 74-14-3m14 10-15 2m65-9 14-3m-14 10 15 2" />
+            <path class="mascot-scarf" d="M47 99c16 9 39 9 56-1l-5 14c-16 8-32 8-47 0z" />
+            <path class="mascot-scarf-tail" d="m91 108 8 1-1 17-9-9z" />
+            <path class="mascot-paw" d="M108 94c11-2 18 2 19 8 0 5-5 7-12 6" />
+            <path class="mascot-paw-line" d="m116 101 1 4m5-4 1 4" />
+          </g>
+        </svg>
+        <span class="floating-note">♡ Refleksi sebagai proses bertumbuh</span>
+      </div>
+    </section>
+
+    <section class="section profile-section" id="profil">
+      <div class="section-heading">
+        <span class="eyebrow">01 / TENTANG SAYA</span>
+        <h2>Profil <span>Mahasiswa</span></h2>
+      </div>
+      <div class="profile-card">
+        <img class="profile-avatar" src="images/foto%201.jpeg"
+          alt="Foto profil Yosie Zahra Fadilla">
+        <svg class="mini-mascot mini-mascot-profile" viewBox="0 0 150 170" aria-hidden="true">
+          <path class="mini-cat-head" d="m36 60 6-34 29 24q7-3 14 0l29-24 6 35-4 20q-5 29-38 29T40 80z" />
+          <path class="mini-cat-tuft" d="m68 32 7-13 8 12 8-8-1 16H62l-3-12z" />
+          <path class="mini-cat-star" d="m105 42 3-7 3 7 7 3-7 3-3 7-3-7-7-3z" />
+          <ellipse class="mini-cat-eye" cx="60" cy="68" rx="4" ry="6" />
+          <ellipse class="mini-cat-eye" cx="92" cy="68" rx="4" ry="6" />
+          <path class="mini-cat-nose" d="m72 77 4-3 4 3-4 4z" />
+          <path class="mini-cat-mouth" d="M76 81v5m0 0c-4 4-8 3-10 0m10 0c4 4 8 3 10 0" />
+          <path class="mini-cat-scarf" d="M47 101q29 15 58 0l-7 15q-22 12-45 0z" />
+          <path class="mini-cat-scarf-tail" d="m92 111 9 1-2 19-10-11z" />
+        </svg>
+        <div class="profile-info">
+          <h3>Yosie Zahra Fadilla</h3>
+          <p class="profile-role">Mahasiswa Pendidikan Profesi Guru (PPG)</p>
+          <div class="profile-tags">
+            <span>Broadcasting</span>
+            <span>Perfilman</span>
+            <span>Refleksi Pembelajaran</span>
+          </div>
+          <a class="profile-github" href="https://github.com/yosiechyzf"
+            target="_blank" rel="noopener noreferrer">
+            GitHub: yosiechyzf <span aria-hidden="true">↗</span>
+          </a>
+          <p class="profile-intro">
+            Saya berkomitmen mengembangkan kompetensi pedagogik dan
+            profesional melalui refleksi pengalaman belajar. Bagi saya,
+            pembelajaran Broadcasting dan Perfilman bukan hanya tentang
+            keterampilan produksi audiovisual, tetapi juga tentang
+            merancang pengalaman belajar yang kreatif, kolaboratif,
+            bermakna, dan relevan dengan kebutuhan peserta didik.
+          </p>
+          <div class="vision-mission">
+            <article class="vision-card">
+              <span class="vision-label">VISI SAYA</span>
+              <h4>Menjadi guru humanis dan empatik</h4>
+              <p>
+                Menciptakan lingkungan belajar yang tenang dan aman,
+                serta menjadi pendamping dan motivator bagi murid.
+              </p>
+            </article>
+            <div class="mission-card">
+              <span class="vision-label">MISI SAYA</span>
+              <div class="mission-copy">
+                <p>
+                  Saya berupaya menciptakan lingkungan belajar yang aman dan
+                  nyaman melalui kesepakatan kelas yang menumbuhkan sikap saling
+                  menghargai. Saya juga menerapkan pendekatan pembelajaran yang
+                  empatik dengan memahami kebutuhan, perasaan, dan pengalaman
+                  setiap murid.
+                </p>
+                <p>
+                  Saya ingin menjadi pendamping dan fasilitator yang mendukung
+                  tumbuh kembang murid sesuai potensinya, sekaligus menjadi
+                  motivator yang menginspirasi. Untuk itu, saya memberikan
+                  umpan balik yang konstruktif dan mengapresiasi setiap usaha
+                  murid, termasuk langkah-langkah kecil dalam proses belajar.
+                </p>
+                <p>
+                  Saya berkomitmen menumbuhkan rasa percaya diri dan motivasi
+                  dari dalam diri murid agar mereka terus belajar dan berkembang
+                  sepanjang hayat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reflections-section" id="refleksi">
+      <div class="section-heading">
+        <span class="eyebrow">02 / PERJALANAN BELAJAR</span>
+        <h2>Lembar Kerja <span>2 — Refleksi 4C</span></h2>
+        <svg class="mini-mascot mini-mascot-reflections" viewBox="0 0 150 170" aria-hidden="true">
+          <path class="mini-cat-head" d="m36 60 6-34 29 24q7-3 14 0l29-24 6 35-4 20q-5 29-38 29T40 80z" />
+          <path class="mini-cat-tuft" d="m68 32 7-13 8 12 8-8-1 16H62l-3-12z" />
+          <path class="mini-cat-star" d="m105 42 3-7 3 7 7 3-7 3-3 7-3-7-7-3z" />
+          <ellipse class="mini-cat-eye" cx="60" cy="68" rx="4" ry="6" />
+          <ellipse class="mini-cat-eye" cx="92" cy="68" rx="4" ry="6" />
+          <path class="mini-cat-nose" d="m72 77 4-3 4 3-4 4z" />
+          <path class="mini-cat-mouth" d="M76 81v5m0 0c-4 4-8 3-10 0m10 0c4 4 8 3 10 0" />
+          <path class="mini-cat-scarf" d="M47 101q29 15 58 0l-7 15q-22 12-45 0z" />
+          <path class="mini-cat-scarf-tail" d="m92 111 9 1-2 19-10-11z" />
+        </svg>
+        <p>
+          Pilih refleksi untuk membaca hubungan pengalaman belajar,
+          tantangan, konsep utama, dan perubahan yang direncanakan.
+        </p>
+      </div>
+
+      <div class="reflection-tools">
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search"
+            placeholder="Cari refleksi atau konsep..."
+            aria-label="Cari refleksi">
+        </label>
+        <select id="categoryFilter" aria-label="Filter refleksi">
+          <option value="all">Semua refleksi</option>
+          <option value="pse">Pembelajaran sosial emosional</option>
+          <option value="kepemimpinan">Projek kepemimpinan</option>
+          <option value="pplm">Praktik lapangan mandiri</option>
+          <option value="pmal">Pembelajaran mendalam & asesmen</option>
+          <option value="inklusi">Pendidikan inklusi</option>
+        </select>
+      </div>
+
+      <div class="reflection-grid" id="reflectionGrid">
+
+        <article class="reflection-card" data-category="pse">
+          <div class="card-top">
+            <span class="number">01</span>
+            <span class="status">PSE</span>
+          </div>
+          <p class="card-label">PENGALAMAN BELAJAR</p>
+          <h3>Pembelajaran Sosial Emosional</h3>
+          <p class="card-summary">
+            CASEL, regulasi emosi, empati, dan budaya praktik tanpa saling menyalahkan.
+          </p>
+          <button class="detail-button" data-reflection="0"
+            aria-expanded="false">Baca refleksi <span>↗</span></button>
+          <a class="pdf-button" href="pdf/REFLEKSI%20PSE.pdf" target="_blank"
+            rel="noopener">Buka PDF <span>↗</span></a>
+        </article>
+
+        <article class="reflection-card" data-category="kepemimpinan">
+          <div class="card-top">
+            <span class="number">02</span>
+            <span class="status">KEPEMIMPINAN</span>
+          </div>
+          <p class="card-label">PENGALAMAN BELAJAR</p>
+          <h3>Projek Kepemimpinan</h3>
+          <p class="card-summary">
+            Memimpin proyek ILM “Bijak Dalam Menggunakan AI” dengan perencanaan dan kolaborasi.
+          </p>
+          <button class="detail-button" data-reflection="1"
+            aria-expanded="false">Baca refleksi <span>↗</span></button>
+          <a class="pdf-button" href="pdf/REFLEKSI%20PROJEK%20KEPEMIMPINAN.pdf"
+            target="_blank" rel="noopener">Buka PDF <span>↗</span></a>
+        </article>
+
+        <article class="reflection-card" data-category="pplm">
+          <div class="card-top">
+            <span class="number">03</span>
+            <span class="status">PPLM</span>
+          </div>
+          <p class="card-label">PENGALAMAN BELAJAR</p>
+          <h3>Praktik Pengalaman Lapangan Mandiri</h3>
+          <p class="card-summary">
+            Pengalaman mengelola pembelajaran vokasi dan praktik studio secara adaptif.
+          </p>
+          <button class="detail-button" data-reflection="2"
+            aria-expanded="false">Baca refleksi <span>↗</span></button>
+          <a class="pdf-button" href="pdf/REFLEKSI%20PPLM.pdf" target="_blank"
+            rel="noopener">Buka PDF <span>↗</span></a>
+        </article>
+
+        <article class="reflection-card" data-category="pmal">
+          <div class="card-top">
+            <span class="number">04</span>
+            <span class="status">PMAL</span>
+          </div>
+          <p class="card-label">PENGALAMAN BELAJAR</p>
+          <h3>Pembelajaran Mendalam dan Asesmen Lanjut</h3>
+          <p class="card-summary">
+            Asesmen autentik dan pemetaan kebutuhan belajar sebagai dasar diferensiasi.
+          </p>
+          <button class="detail-button" data-reflection="3"
+            aria-expanded="false">Baca refleksi <span>↗</span></button>
+          <a class="pdf-button" href="pdf/REFLEKSI%20PMAL.pdf" target="_blank"
+            rel="noopener">Buka PDF <span>↗</span></a>
+        </article>
+
+        <article class="reflection-card" data-category="inklusi">
+          <div class="card-top">
+            <span class="number">05</span>
+            <span class="status">INKLUSI</span>
+          </div>
+          <p class="card-label">PENGALAMAN BELAJAR</p>
+          <h3>Pendidikan Inklusi</h3>
+          <p class="card-summary">
+            Merancang pembelajaran adaptif yang menghargai kebutuhan dan potensi setiap murid.
+          </p>
+          <button class="detail-button" data-reflection="4"
+            aria-expanded="false">Baca refleksi <span>↗</span></button>
+          <a class="pdf-button" href="pdf/REFLEKSI%20INKLUSI.pdf" target="_blank"
+            rel="noopener">Buka PDF <span>↗</span></a>
+        </article>
+
+      </div>
+
+      <p id="emptyMessage" class="empty-message" hidden>
+        Refleksi tidak ditemukan. Coba kata kunci lain.
+      </p>
+
+      <div id="reflectionDetail" class="reflection-detail" hidden>
+        <div class="detail-heading">
+          <div>
+            <span class="eyebrow">URAIAN REFLEKSI</span>
+            <h3 id="detailTitle"></h3>
+          </div>
+          <button id="closeDetail" class="close-button"
+            aria-label="Tutup refleksi">✕</button>
+        </div>
+        <div id="detailContent"></div>
+      </div>
+    </section>
+
+    <section class="section ppg-reflection-section" id="refleksi-ppg">
+      <div class="section-heading">
+        <span class="eyebrow">03 / REFLEKSI PERJALANAN PPG</span>
+        <h2>Belajar Menjadi Guru <span>Profesional</span></h2>
+        <p>
+          Refleksi menyeluruh atas pengalaman belajar selama mengikuti
+          Program Pendidikan Profesi Guru.
+        </p>
+      </div>
+
+      <div class="ppg-reflection-intro">
+        <h3 class="ppg-point-heading">1. Pandangan tentang Pendidikan di Indonesia</h3>
+        <p>
+          Setelah mengikuti rangkaian PPG, saya meyakini pendidikan di Indonesia
+          seharusnya mewujudkan pendidikan bermutu untuk semua melalui pendekatan
+          yang humanis, inklusif, dan berorientasi pada peserta didik. Pendidikan
+          tidak cukup berfokus pada nilai akademik atau penuntasan kurikulum,
+          tetapi perlu memberdayakan potensi manusia secara utuh.
+        </p>
+        <p>
+          Sekolah seharusnya menjadi ruang belajar yang aman, tenang, dan bebas
+          dari perundungan maupun rasa takut untuk melakukan kekeliruan.
+          Pendidikan juga perlu mengembangkan karakter dan empati, serta
+          memberikan akses belajar yang setara agar setiap peserta didik dapat
+          tumbuh menjadi pembelajar sepanjang hayat.
+        </p>
+      </div>
+
+      <div class="ppg-efforts">
+        <h3 class="ppg-point-heading">2. Upaya Menjadi Guru Profesional</h3>
+        <div class="ppg-action-grid">
+          <article class="ppg-action-card">
+            <span>01</span>
+            <h3>Mengembangkan kompetensi secara berkelanjutan</h3>
+            <p>
+              Aktif mengikuti pelatihan, seminar, lokakarya, dan program
+              pengembangan profesi untuk memperbarui kompetensi pedagogik,
+              penguasaan materi, serta pemanfaatan teknologi.
+            </p>
+          </article>
+          <article class="ppg-action-card">
+            <span>02</span>
+            <h3>Membiasakan praktik reflektif</h3>
+            <p>
+              Mengevaluasi pembelajaran secara kritis dan konsisten, lalu
+              menggunakan hasil refleksi untuk memperbaiki metode mengajar.
+            </p>
+          </article>
+          <article class="ppg-action-card">
+            <span>03</span>
+            <h3>Menjaga etika dan membangun komunikasi empatik</h3>
+            <p>
+              Menjadi teladan yang disiplin dan berintegritas, berlatih
+              mendengarkan secara aktif tanpa menghakimi, serta berkomunikasi
+              dengan tenang dan asertif.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="ppg-follow-up">
+        <h3 class="ppg-point-heading">3. Rencana Tindak Lanjut Saat Memulai Karier</h3>
+        <div class="ppg-action-grid">
+          <article class="ppg-action-card">
+            <span>01</span>
+            <h3>Menciptakan ekosistem belajar yang ramah dan inklusif</h3>
+            <p>
+              Menyusun kesepakatan kelas bersama yang menekankan rasa saling
+              menghargai, empati, dan kerja sama agar murid berani bertanya,
+              menyampaikan gagasan, dan belajar tanpa takut dihakimi.
+            </p>
+          </article>
+          <article class="ppg-action-card">
+            <span>02</span>
+            <h3>Memetakan potensi setiap murid</h3>
+            <p>
+              Melakukan asesmen diagnostik di awal pembelajaran untuk mengenali
+              karakteristik, minat, gaya belajar, latar belakang, serta kondisi
+              sosial-emosional murid, lalu merancang pembelajaran berdiferensiasi.
+            </p>
+          </article>
+          <article class="ppg-action-card">
+            <span>03</span>
+            <h3>Membangun kolaborasi dan budaya refleksi</h3>
+            <p>
+              Membuat jurnal refleksi harian atau mingguan, membuka ruang umpan
+              balik dari murid, serta bekerja sama dengan rekan sejawat, kepala
+              sekolah, dan orang tua untuk mendukung perkembangan murid.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="ppg-pdf-card">
+        <div class="ppg-pdf-heading">
+          <div>
+            <span class="vision-label">DOKUMEN LENGKAP</span>
+            <h3>LK 3 — Refleksi Pengalaman Belajar Selama Mengikuti PPG</h3>
+          </div>
+          <div class="ppg-pdf-actions">
+            <button class="btn btn-outline" id="previewPpgPdf"
+              type="button" aria-expanded="false" aria-controls="ppgPdfPreview">
+              Pratinjau PDF
+            </button>
+            <a class="btn btn-primary" href="pdf/LEMBAR%20KERJA%203%20(LK%203)%20SPPG.pdf"
+              target="_blank" rel="noopener">Buka PDF ↗</a>
+          </div>
+        </div>
+        <div id="ppgPdfPreview" class="ppg-pdf-preview" hidden>
+          <iframe class="ppg-pdf-viewer"
+            src="pdf/LEMBAR%20KERJA%203%20(LK%203)%20SPPG.pdf"
+            title="Pratinjau PDF refleksi pengalaman belajar selama mengikuti PPG"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section change-section" id="perubahan">
+      <div class="section-heading">
+        <span class="eyebrow">04 / LANGKAH SELANJUTNYA</span>
+        <h2>Konsep dan Rencana <span>Perubahan</span></h2>
+      </div>
+
+      <div class="change-layout">
+        <div class="change-intro">
+          <span class="large-symbol">↗</span>
+          <h3>Refleksi harus berujung pada aksi.</h3>
+          <p>
+            Pemahaman baru akan bermakna apabila diterapkan,
+            dievaluasi, dan disempurnakan dalam praktik pembelajaran.
+          </p>
+        </div>
+        <div class="action-list">
+          <article>
+            <span>01</span>
+            <div>
+              <h4>Membangun ruang belajar yang aman</h4>
+              <p>Memulai praktik dengan empathy check dan membiasakan
+                umpan balik tanpa saling menyalahkan.</p>
+            </div>
+          </article>
+          <article>
+            <span>02</span>
+            <div>
+              <h4>Memimpin proyek yang berdampak</h4>
+              <p>Membimbing proyek vokasi dengan riset kebutuhan,
+                pembagian peran, anggaran, jadwal, dan evaluasi.</p>
+            </div>
+          </article>
+          <article>
+            <span>03</span>
+            <div>
+              <h4>Mengajar berdasarkan data kebutuhan</h4>
+              <p>Menggunakan asesmen diagnostik untuk menentukan
+                diferensiasi dan scaffolding yang sesuai.</p>
+            </div>
+          </article>
+          <article>
+            <span>04</span>
+            <div>
+              <h4>Menghadirkan praktik inklusif dan aman</h4>
+              <p>Menerapkan UDL, akomodasi yang layak, SOP dan K3,
+                serta refleksi rutin atas praktik mengajar.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <svg class="mini-mascot mini-mascot-closing" viewBox="0 0 150 170" aria-hidden="true">
+        <path class="mini-cat-head" d="m36 60 6-34 29 24q7-3 14 0l29-24 6 35-4 20q-5 29-38 29T40 80z" />
+        <path class="mini-cat-tuft" d="m68 32 7-13 8 12 8-8-1 16H62l-3-12z" />
+        <path class="mini-cat-star" d="m105 42 3-7 3 7 7 3-7 3-3 7-3-7-7-3z" />
+        <ellipse class="mini-cat-eye" cx="60" cy="68" rx="4" ry="6" />
+        <ellipse class="mini-cat-eye" cx="92" cy="68" rx="4" ry="6" />
+        <path class="mini-cat-nose" d="m72 77 4-3 4 3-4 4z" />
+        <path class="mini-cat-mouth" d="M76 81v5m0 0c-4 4-8 3-10 0m10 0c4 4 8 3 10 0" />
+        <path class="mini-cat-scarf" d="M47 101q29 15 58 0l-7 15q-22 12-45 0z" />
+        <path class="mini-cat-scarf-tail" d="m92 111 9 1-2 19-10-11z" />
+      </svg>
+      <span class="eyebrow">PENUTUP</span>
+      <h2>Terus belajar. Terus berkarya.</h2>
+      <p>
+        Menjadi pendidik profesional adalah proses berkelanjutan:
+        memahami, mencoba, merefleksikan, dan memperbaiki.
+      </p>
+      <a href="#beranda" class="btn btn-primary">Kembali ke Atas ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Yosie Zahra Fadilla · Portofolio Digital LK 2 PPG</p>
+    <p>Broadcasting dan Perfilman</p>
+  </footer>
+
+</body>
+</html>
